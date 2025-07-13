@@ -3,7 +3,7 @@
 */
 
 .stf-menu .stf-logo {
-  background: url(../../common/logo/exports/STF-512.png) no-repeat 0 0;
+  background: url(../../common/logo/exports/logo.png) no-repeat 0 0;
   width: 32px;
   height: 32px;
   float: left;
@@ -14,7 +14,7 @@
 }
 
 .stf-menu .stf-top-bar {
-  height: 44px;
+  height: 10rem;
   padding: 0 10px 0 20px;
   width: 100%;
   float: left;
@@ -27,7 +27,7 @@
   float: left;
 }
 
-.stf-menu .stf-nav > li {
+.stf-menu .stf-nav>li {
   padding-right: 15px;
   float: left;
   display: inline-block;
@@ -36,7 +36,7 @@
   margin: 0;
 }
 
-.stf-menu .stf-nav > li > a {
+.stf-menu .stf-nav>li>a {
   display: inline-block;
   text-align: left;
   padding: 0 !important;
@@ -50,18 +50,18 @@
   position: relative;
 }
 
-.stf-menu .stf-nav > li > a > span.fa {
+.stf-menu .stf-nav>li>a>span.fa {
   display: inline-block;
   float: left;
   margin: 8px 8px 0 0;
   font-size: 28px;
 }
 
-.stf-menu .stf-nav > li > a > span.fa-mobile {
+.stf-menu .stf-nav>li>a>span.fa-mobile {
   font-size: 30px;
 }
 
-.stf-menu .stf-nav > li > a.current {
+.stf-menu .stf-nav>li>a.current {
   color: #007aff;
 }
 
@@ -108,16 +108,16 @@
   white-space: nowrap;
   position: relative;
   top: 50%;
-  transform: translate(0%,-50%);
+  transform: translate(0%, -50%);
   line-height: 44px;
 }
 
 @keyframes slideBanner {
   0% {
-   left: 100%;
+    left: 100%;
   }
+
   100% {
-   left: -100%;
+    left: -100%;
   }
 }
-

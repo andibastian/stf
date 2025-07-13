@@ -290,9 +290,7 @@ svg {
   z-index: 5000;
 }
 
-.stf-drawer-floating {
-
-}
+.stf-drawer-floating {}
 
 .stf-drawer-docked-down {
   width: 100%;
@@ -348,7 +346,7 @@ svg {
   height: 100%;
 }
 
-.stf-feedback > li > a {
+.stf-feedback>li>a {
   font-size: 14px;
 }
 
@@ -412,8 +410,6 @@ textarea.form-control[readonly],
 fieldset[disabled] textarea.form-control,
 input[type="text"].form-control[disabled],
 input[type="text"].form-control[readonly],
-fieldset[disabled] input[type="text"].form-control
-{
+fieldset[disabled] input[type="text"].form-control {
   cursor: text;
 }
-
